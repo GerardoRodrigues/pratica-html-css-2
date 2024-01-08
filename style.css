@@ -4,3 +4,47 @@
     margin: 0px;
     padding: 0px;
 }
+
+header{
+    background-color: black;
+    text-align: center;
+    padding: 100px;
+}
+
+header h1{
+    color: white;
+}
+
+header p{
+    color: white;
+}
+
+header p > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+header p > a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+}
+
+footer p{
+    color: white;
+    padding: 3px;
+}
+
+footer p > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+footer p > a:hover{
+    text-decoration: underline;
+}
